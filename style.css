@@ -1,7 +1,7 @@
 body {
   background-color: #008080;
   color: #FFFFFF;
-  font-family: Arial, helvetice, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 10% 20%;
     
 }
@@ -21,7 +21,8 @@ body {
 
 
 .topnav a {
-  float: center;
+  text-align: center;
+  float: left;
   height: 50px;
   color: #f2f2f2;
   text-align: center;
@@ -40,3 +41,10 @@ body {
   background-color: #37485c;
   color: white;
 } */
+
+.links {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
