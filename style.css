@@ -6,15 +6,37 @@ body {
     
 }
 
-.exp-header {
-  text-align: center;
-  text-transform: uppercase; 
-  border-top: 1px solid #dddddd; 
-  border-bottom: 1px solid #dddddd;
-  background-color: grey
+
+/* .nav {
+  background-color: #37485c;
+  height: 100px;
+  color: white;
+  margin-top: 0px;
+} */
+
+.topnav {
+    background-color: #37485c;
+    overflow: hidden;
 }
 
-img{
-  width: 50%;
-    margin: 10% 20%;
+
+.topnav a {
+  float: center;
+  height: 50px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* .topnav a.active {
+  background-color: #37485c;
+  color: white;
+} */
